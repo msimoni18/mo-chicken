@@ -1,0 +1,11 @@
+Rank	Team	W-L-T	Pts For	Pts Agnst	Streak	Waiver	Moves
+*1	logo Your Coach	7-7-0	1841.36	1790.30	W-2	7	31
+*2	logo #Trash_Commish	9-5-0	1978.36	1656.44	W-1	10	24
+*3	logo Golden Rams Fam	10-4-0	1824.06	1799.68	W-2	8	15
+*4	logo Shmo Stars	6-8-0	1767.56	1727.72	W-4	9	26
+*5	logo AngelLikeMoniBoloni	9-5-0	1841.04	1760.78	W-1	2	17
+*6	logo Trash sandwich	7-7-0	1700.24	1673.32	L-1	5	13
+7	logo Handy Man Kanaan	6-8-0	1699.74	1811.98	L-1	4	27
+8	logo mollywhoppin	6-8-0	1713.76	1839.98	L-2	6	23
+9	logo Burg’sHugeDitkaInAsh	4-10-0	1670.96	1837.38	L-4	1	17
+10	logo Route 28 Speed Walkers	6-8-0	1646.68	1786.18	L-4	3	29

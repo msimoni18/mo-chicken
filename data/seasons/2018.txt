@@ -1,0 +1,11 @@
+Rank	Team	W-L-T	Pts For	Pts Agnst	Streak	Waiver	Moves
+*1	logo My team	6-7-0	1634.86	1681.40	W-1	1	8
+*2	logo Handy Man Kanaan	7-6-0	1757.68	1749.18	L-3	10	21
+*3	logo The Environmentalist	9-4-0	1962.32	1687.46	W-3	8	23
+*4	logo Golden Rams Fam	10-3-0	2015.86	1659.74	W-3	9	7
+*5	logo Shmo Stars	9-4-0	1815.26	1708.80	L-1	3	18
+*6	logo Ray’s Burger’s	8-5-0	1738.50	1664.98	W-1	6	17
+7	logo Captain poopy shoes	5-8-0	1634.76	1657.28	L-1	7	18
+8	logo BurgGotSmallwood	3-10-0	1634.54	1783.42	L-4	2	6
+9	logo Officer Friendly	5-8-0	1589.02	1658.60	W-2	4	29
+10	logo mollywhoppin	3-10-0	1429.90	1961.84	L-5	5	33

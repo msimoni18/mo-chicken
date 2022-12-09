@@ -1,0 +1,11 @@
+Rank	Team	W-L-T	Pts For	Pts Agnst	Streak	Waiver	Moves
+*1	logo Shmo Stars	9-4-0	1739.14	1628.26	W-7	9	20
+*2	logo Officer Friendly	8-5-0	1726.60	1618.60	L-1	10	17
+*3	logo Down Set Smut	10-3-0	1870.04	1556.32	W-2	4	12
+*4	logo mollywhoppin	9-4-0	1854.68	1666.06	L-1	8	17
+*5	logo AK shine squad	7-6-0	1597.66	1612.82	W-1	7	22
+*6	logo WE DEM BOYZ	6-7-0	1521.54	1590.54	L-4	5	25
+7	logo Ashley's Pouncey	5-8-0	1604.58	1684.96	L-2	1	11
+8	logo More Than You	2-11-0	1478.38	1749.38	L-7	2	12
+9	logo Can I Get Some Reps?	4-9-0	1508.00	1649.48	W-3	3	16
+10	logo Shine Squad	5-8-0	1658.28	1802.48	W-1	6	18

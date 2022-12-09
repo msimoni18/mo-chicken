@@ -1,0 +1,11 @@
+Rank	Team	W-L-T	Pts For	Pts Agnst	Streak	Waiver	Moves
+*1	logo AngelLikeMoniBoloni	11-2-0	1785.80	1539.88	W-2	4	8
+*2	logo Officer Friendly	8-5-0	1721.42	1655.38	W-4	8	34
+*3	logo CeeDeezNutsAsh	8-5-0	1646.86	1645.54	W-1	10	15
+*4	logo The Environmentalist	8-5-0	1859.82	1674.30	L-1	9	30
+*5	logo mollywhoppin	7-6-0	1774.24	1621.62	W-2	6	31
+*6	logo Shmo Stars	7-6-0	1764.28	1638.12	L-2	2	18
+7	logo Golden Rams Fam	5-8-0	1619.74	1703.84	L-4	1	8
+8	logo Trash sandwich	1-12-0	1362.54	1810.64	L-2	3	5
+9	logo Fishy Fishy	4-9-0	1595.44	1694.42	W-1	5	27
+10	logo Handy Man Kanaan	6-7-0	1549.54	1695.94	L-1	7	16

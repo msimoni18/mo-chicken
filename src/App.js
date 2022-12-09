@@ -1,4 +1,7 @@
 import { MemoryRouter as Router, Routes, Route } from "react-router-dom";
+import Navbar from "./components/Navbar";
+import Stats from "./routes/Stats";
+import HistoricalData from "./routes/HistoricalData";
 import logo from "./logo.svg";
 import "./App.css";
 
@@ -26,8 +29,11 @@ function Home() {
 function App() {
   return (
     <Router>
+      <Navbar />
       <Routes>
-        <Route path="/" element={<Home />} />
+        {/* <Route path="/" element={<Home />} /> */}
+        <Route path="/" element={<Stats />} />
+        <Route path="/historical-data" element={<HistoricalData />} />
       </Routes>
     </Router>
   );
