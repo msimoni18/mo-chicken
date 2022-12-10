@@ -1,4 +1,4 @@
-import data from "../data";
+import data from "../data/historical_data";
 import { DataGrid } from "@mui/x-data-grid";
 
 const columns = [
