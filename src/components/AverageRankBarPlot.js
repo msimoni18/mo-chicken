@@ -20,7 +20,7 @@ export default function AverageRankBarPlot() {
         yaxis: { title: "Rank" },
         barmode: "stack",
       }}
-      config={{ responsive: true }}
+      config={{ responsive: true, staticPlot: true, displayModeBar: false }}
     />
   );
 }

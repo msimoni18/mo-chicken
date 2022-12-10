@@ -33,7 +33,7 @@ export default function TopThreeFinishesBarPlot() {
         yaxis: { title: "Rank" },
         barmode: "stack",
       }}
-      config={{ responsive: true }}
+      config={{ responsive: true, staticPlot: true, displayModeBar: false }}
     />
   );
 }
