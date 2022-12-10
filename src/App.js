@@ -1,41 +1,21 @@
 import { MemoryRouter as Router, Routes, Route } from "react-router-dom";
+import { ThemeProvider } from "@mui/material";
 import Navbar from "./components/Navbar";
 import Stats from "./routes/Stats";
 import HistoricalData from "./routes/HistoricalData";
-import logo from "./logo.svg";
-import "./App.css";
-
-function Home() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
-}
+import theme from "./themes/theme";
 
 function App() {
   return (
-    <Router>
-      <Navbar />
-      <Routes>
-        {/* <Route path="/" element={<Home />} /> */}
-        <Route path="/" element={<Stats />} />
-        <Route path="/historical-data" element={<HistoricalData />} />
-      </Routes>
-    </Router>
+    <ThemeProvider theme={theme}>
+      <Router>
+        <Navbar />
+        <Routes>
+          <Route path="/" element={<Stats />} />
+          <Route path="/historical-data" element={<HistoricalData />} />
+        </Routes>
+      </Router>
+    </ThemeProvider>
   );
 }
 

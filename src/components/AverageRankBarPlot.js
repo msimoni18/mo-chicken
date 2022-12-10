@@ -10,15 +10,27 @@ export default function AverageRankBarPlot() {
           x: data["MANAGER"],
           y: data["RANK"],
           type: "bar",
+          marker: {
+            color: "#3df730",
+            opacity: 1,
+          },
         },
       ]}
       layout={{
         width: 700,
         height: 400,
         title: "Average Rank",
-        xaxis: { title: "Manager" },
-        yaxis: { title: "Rank" },
-        barmode: "stack",
+        xaxis: { title: "Manager", gridcolor: "#3a3a3a" },
+        yaxis: {
+          title: "Rank",
+          gridcolor: "#3a3a3a",
+          rangemode: "nonnegative",
+        },
+        paper_bgcolor: "rgba(0, 0, 0, 0)",
+        plot_bgcolor: "#262626",
+        font: {
+          color: "#d1d1d1d1",
+        },
       }}
       config={{ responsive: true, staticPlot: true, displayModeBar: false }}
     />

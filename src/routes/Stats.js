@@ -1,17 +1,16 @@
 import AverageRankBarPlot from "../components/AverageRankBarPlot";
 import TopThreeFinishesBarPlot from "../components/TopThreeFinishesBarPlot";
+import "../App.css";
+import { Typography } from "@mui/material";
 
 export default function Stats() {
   return (
-    <div style={{ margin: "1%", width: "100%" }}>
-      <h1>Stats</h1>
-      <div style={{ textAlign: "center" }}>
-        <div style={{ flexGrow: 1 }}>
+    <div className="app">
+      <div className="page">
+        <div>
           <AverageRankBarPlot />
         </div>
-      </div>
-      <div style={{ textAlign: "center" }}>
-        <div style={{ flexGrow: 1 }}>
+        <div>
           <TopThreeFinishesBarPlot />
         </div>
       </div>
