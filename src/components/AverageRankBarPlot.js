@@ -13,13 +13,14 @@ export default function AverageRankBarPlot() {
         },
       ]}
       layout={{
-        width: 750,
-        height: 500,
+        width: 700,
+        height: 400,
         title: "Average Rank",
         xaxis: { title: "Manager" },
         yaxis: { title: "Rank" },
         barmode: "stack",
       }}
+      config={{ responsive: true }}
     />
   );
 }
