@@ -39,7 +39,6 @@ export default function HistoricalData() {
 
   return (
     <div style={{ margin: "1%" }}>
-      <h1>Historical Data</h1>
       <div
         style={{
           height: 500,
@@ -48,7 +47,11 @@ export default function HistoricalData() {
       >
         <div style={{ display: "flex", height: "100%" }}>
           <div style={{ flexGrow: 1 }}>
-            <DataGrid columns={columns} rows={rows} />
+            <DataGrid
+              sx={{ color: "#d1d1d1d1" }}
+              columns={columns}
+              rows={rows}
+            />
           </div>
         </div>
       </div>
