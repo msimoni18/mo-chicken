@@ -64,9 +64,6 @@ export default function Navbar() {
             >
               Historical Data
             </MenuItem>
-            {/* <MenuItem component={Link} to="/profiles" onClick={handleClose}>
-              Manager Profiles
-            </MenuItem> */}
           </Menu>
           <Typography variant="h5" component="div" sx={{ flexGrow: 1 }}>
             Mo Chicken Fantasy Football League

@@ -1,7 +1,6 @@
 import { MemoryRouter as Router, Routes, Route } from "react-router-dom";
 import { ThemeProvider } from "@mui/material";
 import Navbar from "./components/Navbar";
-// import Profiles from "./routes/Profiles";
 import Stats from "./routes/Stats";
 import HistoricalData from "./routes/HistoricalData";
 import theme from "./themes/theme";
@@ -14,7 +13,6 @@ function App() {
         <Routes>
           <Route path="/" element={<Stats />} />
           <Route path="/historical-data" element={<HistoricalData />} />
-          {/* <Route path="/profiles" element={<Profiles />} /> */}
         </Routes>
       </Router>
     </ThemeProvider>
