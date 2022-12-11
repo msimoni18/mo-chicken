@@ -20,3 +20,39 @@ function App() {
 }
 
 export default App;
+
+// function useWindowDimensions() {
+//   const [width, setWidth] = React.useState(window.innerWidth);
+//   const [height, setHeight] = React.useState(window.innerHeight);
+
+//   const updateWidthAndHeight = () => {
+//     setWidth(window.innerWidth);
+//     setHeight(window.innerHeight);
+//   };
+
+//   React.useEffect(() => {
+//     window.addEventListener("resize", updateWidthAndHeight);
+//     return () => window.removeEventListener("resize", updateWidthAndHeight);
+//   });
+
+//   return {
+//     width,
+//     height,
+//   };
+// }
+
+// const App = () => {
+//   const { width, height } = useWindowDimensions();
+
+//   return (
+//     <div>
+//       <div className="App">
+//         <h2>width: {width}</h2>
+//         <h2>height: {height}</h2>
+//         <p>Resize the window.</p>
+//       </div>
+//     </div>
+//   );
+// };
+
+// export default App;

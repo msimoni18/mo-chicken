@@ -16,9 +16,9 @@ body {
 }
 
 .app {
-  margin: 1%;
+  text-align: center;
 }
 
-.page {
-  text-align: center;
+.plot {
+  margin: 2%;
 }
