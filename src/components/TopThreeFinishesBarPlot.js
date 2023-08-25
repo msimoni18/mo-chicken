@@ -8,6 +8,8 @@ export default function TopThreeFinishesBarPlot() {
   // const { width, height } = useWindowDimensions();
   const { width, height, ref } = useResizeDetector();
 
+  console.log(data)
+
   return (
     <div ref={ref} className="plot">
       <Plot
