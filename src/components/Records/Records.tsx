@@ -22,9 +22,15 @@ const Records = () => {
     activeManagers.includes(row.manager)
   );
 
-  const [seasonHigh] = React.useState(getMax(seasonHighTotal, "points for"));
-  const [weeklyHigh] = React.useState(getMax(weeklyHighTotal, "points"));
-  const [weeklyLow] = React.useState(getMin(weeklyLowTotal, "points"));
+  const [seasonHigh] = React.useState<SeasonTotal | WeeklyTotal>(
+    getMax(seasonHighTotal, "points for")
+  );
+  const [weeklyHigh] = React.useState<SeasonTotal | WeeklyTotal>(
+    getMax(weeklyHighTotal, "points")
+  );
+  const [weeklyLow] = React.useState<SeasonTotal | WeeklyTotal>(
+    getMin(weeklyLowTotal, "points")
+  );
 
   return (
     <div>
@@ -96,3 +102,21 @@ const Records = () => {
 };
 
 export default Records;
+
+export type SeasonTotal = {
+  year: number;
+  rank: number;
+  manager: string;
+  "points for": number;
+  [key: string]: string | number;
+};
+
+export type WeeklyTotal = {
+  year: number;
+  week: number;
+  team: string;
+  points: number;
+  "estimated points": number;
+  manager: string;
+  [key: string]: string | number;
+};
