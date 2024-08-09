@@ -1,11 +1,12 @@
 import { type ClassValue, clsx } from "clsx";
 import { twMerge } from "tailwind-merge";
+import type { SeasonTotal, WeeklyTotal } from "@/components/Records/Records";
 
 export function cn(...inputs: ClassValue[]) {
   return twMerge(clsx(inputs));
 }
 
-export function getMax(arr: object[], key: string) {
+export function getMax(arr: SeasonTotal[] | WeeklyTotal[], key: string) {
   const max = arr.reduce((prev, current) =>
     prev && prev[key] > current[key] ? prev : current
   );
@@ -13,7 +14,7 @@ export function getMax(arr: object[], key: string) {
   return max;
 }
 
-export function getMin(arr: object[], key: string) {
+export function getMin(arr: SeasonTotal[] | WeeklyTotal[], key: string) {
   const min = arr.reduce((prev, current) =>
     prev && prev[key] < current[key] ? prev : current
   );
