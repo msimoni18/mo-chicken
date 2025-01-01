@@ -14,7 +14,7 @@ type Appearances = {
   manager: string;
   count: number;
   "total seasons": number;
-  percentage: string;
+  percentage: number;
 };
 
 const PlayoffAppearanceTable = () => {
