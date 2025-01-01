@@ -21,3 +21,7 @@ export function getMin(arr: SeasonTotal[] | WeeklyTotal[], key: string) {
 
   return min;
 }
+
+export function numberWithCommas(x: number) {
+  return x.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
+}

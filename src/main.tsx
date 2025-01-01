@@ -7,6 +7,7 @@ import "./index.css";
 
 ReactDOM.createRoot(document.getElementById("root")!).render(
   <React.StrictMode>
+    {/* HashRouter is needed for gh-pages */}
     <HashRouter>
       <ThemeProvider defaultTheme="dark" storageKey="vite-ui-theme">
         <App />
